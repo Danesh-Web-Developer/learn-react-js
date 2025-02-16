@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: #242323e5;
+    padding: 0px 90px 0px 100px;
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+}
+
+.navheading {
+    color: white;
+    font-size: 30px;
+}
+
+.navheading:hover {
+    color: #bebdbd;
+}
+
+.custom-dropdown .dropdown-toggle {
+    color: white !important;
+}
+
+.custom-dropdown .dropdown-toggle:hover {
+    color: #bebdbd !important;
+}
+
+.custom-dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.custom-dropdown .dropdown-item:hover {
+    background-color: white;
+    color: black;
+}
+
+/* hero css */
+
+.hero {
+    display: flex;
+    align-items: end;
+    width: 100%;
+    height: 90vh;
+    background-image: url(../images/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    z-index: -1;
+}
+
+.links {
+    color: white !important;
+}
+
+.links:hover {
+    color: #bebdbd !important;
+}
+
+.h1div {
+    width: 50%;
+}
+
+.h1 {
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 70px;
+}
+
+.discoverbtn {
+    border: none;
+    margin: 30px 8px 50px 0px;
+    padding: 11px 25px 12px 25px;
+    background-color: #2c52fd;
+    color: white;
+    transition: all 0.5s ease !important;
+}
+
+.discoverbtn:hover {
+    transform: scale(1.1) !important;
+}
+
+.contactbtn {
+    padding: 11px;
+    border: none;
+    background-color: rgb(90, 81, 81);
+    color: white;
+    transition: all 0.5s ease;
+    margin: 30px 8px 50px 0px;
+}
+
+.contactbtn:hover {
+    transform: scale(1.1);
+}
+
+/* about css */
+
+.main {
+    background-color: #efeeee;
+}
+
+.middle {
+    padding: 130px 0px 105px 0px;
+}
+
+.para {
+    line-height: 9px;
+}
+
+/* service */
+
+.servicemid{
+    padding: 120px 12px 120px 12px;
+}
+.abc{
+    gap: 19px;
+}
+.designdiv{
+    width: 32%;
+    border: 1px solid gray;
+    padding: 55px 20px 25px 30px;
+    line-height: 25px;
+}
+
+/* works */
+.img{
+    height: 105vh;
+    background-image: url(../images/details-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.worksdiv{
+    padding:110px 90px 100px 90px;
+    background-color: #efeeee;
+}
+.div23{
+    display: flex;
+    flex-direction: row;
+}
+
+.dummymid{
+    padding: 130px 12px 120px 12px;
+    border-bottom: 1px solid #cbc9c9;
+}
+.par{
+    font-size: 15px;
+    font-style: italic;
+    line-height: 25px;
+}
+
+.contactmid{
+    padding: 120px 12px 120px 12px;
+    width: 60%;
+}
+
+/* Privacy */
+
+.pa{
+    font-size: 15px;
+}
+.privacycon{
+    width: 65%;
+}
+.backbtn {
+    padding: 10px 20px 10px 20px;
+    border: none;
+    background-color: #2c52fd;
+    color: white;
+}
+
+.backbtn:hover {
+    /* transition: all 0.5s ease; */
+    /* transform: scale(1.1); */
+    border: 1px solid #2c52fd;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+    .navbar {
+        background-color: #242323e5;
+    }
+
+    .h1 {
+        font-size: 40px;
+        letter-spacing: 2px;
+        line-height: 40px;
+        margin-top: 40px;
+    }
+
+    .h1div {
+        width: 90%;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+        height: 90vh;
+    }
+
+    .img{
+        height: 60vh;
+        background-image: url(../images/details-background.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .div23{
+        flex-direction: column;
+    }
+    .designdiv{
+        width: 100%;
+    }
+    .peo{
+        text-align: center;
+    }
+    .privacycon{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .h1 {
+        font-size: 40px;
+        letter-spacing: 2px;
+        line-height: 40px;
+        margin-top: 40px;
+    }
+
+    .h1div {
+        width: 90%;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+        height: 88vh;
+    }
+
+    .middle {
+        padding: 90px 0px 130px 0px;
+    }
+    .peo{
+        text-align: center;
+    }
+    .contactmid{
+        width: 100%;
+    }
+    .privacycon{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .h1 {
+        font-size: 25px;
+        letter-spacing: 2px;
+        line-height: 40px;
+        margin-left: 30px;
+        margin-top: 85px;
+    }
+
+    .h1div {
+        width: 100%;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+        height: 58vh;
+    }
+
+    .discoverbtn {
+        margin-left: 30px;
+        margin-bottom: 0px;
+    }
+
+    .worksdiv{
+        padding:110px 30px 0px 30px;
+    }
+
+    .contactmid{
+        width: 100%;
+    }
+    .peo{
+        text-align: center;
+    }
+    .privacycon{
+        width: 100%;
+    }
+}
