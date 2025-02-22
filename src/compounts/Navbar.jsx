@@ -6,7 +6,7 @@ const Navbar1 = () => {
   return (
     <Navbar expand="lg" className='navbar'>
       <Navbar.Brand href="#home" className='navheading'><img style={{ width: '130px', marginBottom: '5px' }} src={myImage} alt='logo' /></Navbar.Brand>
-      <Navbar.Toggle className='toggle' style={{ backgroundColor: 'white' }} />
+      <Navbar.Toggle className='toggle' style={{ backgroundColor: 'white',width:'50px',height:'40px' }} />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto ">
           <Nav.Link className='links'>
@@ -30,17 +30,17 @@ const Navbar1 = () => {
             className="custom-dropdown"
           >
             <NavDropdown.Item>
-              <Link to="/Project">
+              <Link to="/Project" className='text-decoration-none text-black'>
                 Project Details
               </Link>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <Link to="/Termcond">
+              <Link to="/Termcond" className='text-decoration-none text-black'>
                 Term Conditions
               </Link>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <Link to="/Privacy">
+              <Link to="/Privacy" className='text-decoration-none text-black'>
                 Privacy Policy
               </Link>
             </NavDropdown.Item>

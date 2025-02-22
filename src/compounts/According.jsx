@@ -5,7 +5,7 @@ const According = () => {
             <div className="container-fluid">
                     <h2 className="text-center" style={{padding:'120px 12px 20px 12px'}}>A few words from people that<br />chose to work with me</h2>
                 <div className="container" style={{zIndex:'1',display:'flex',justifyContent:'center'}}>
-                    <div className="row" style={{width:'85%'}}>
+                    <div className="row" style={{width:'90%'}}>
                         <Accordion>
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header>How can contact you and quickly get a quote for my online project?</Accordion.Header>
